@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: #1f2937;
-    overflow: hidden;
+    overflow: auto;
     display: flex;
     flex-direction: column;
 }
@@ -59,7 +59,7 @@ a,
 }
 
 .hero {
-    padding-top: 10px;
+    padding: 10px 0 2% 0;
     color: #f9faf8;
 }
 
@@ -86,6 +86,7 @@ a,
 
 .info {
     padding-top: 10px;
+    padding-bottom: 1%;
     background-color: #f9faf8;
     gap: 20px;
 }
@@ -95,15 +96,10 @@ a,
     align-items: center;
 }
 
-.info .hori-container {
-    gap: 10%;
-}
-
 .info-card {
     gap: 10px;
     text-align: center;
 }
-
 
 .info-card img {
     width: 100px;
@@ -134,9 +130,36 @@ span {
     text-align: right;
 }
 
+.action {
+    background-color: #f9faf8;
+    padding: 5% 10%;
+
+}
+
+.action div {
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 10px;
+    align-items: center;
+}
+
+.action .vert-container {
+    color:#f9faf8;
+    padding-left: 10%;
+}
+
+#action-button {
+    padding-right: 10%;
+}
+
+.action button {
+    border-color: #f9faf8;
+}
+
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2%;
     padding-bottom: 5%;
 }
