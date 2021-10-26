@@ -21,8 +21,7 @@ button {
     margin: 0;
     color: #f9faf8;
     font-weight: bold;
-    padding: 5px 15px;
-    
+    padding: 5px 25px;
 }
 
 .header,
@@ -57,9 +56,6 @@ a,
 }
 
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     color: #f9faf8;
 }
 
